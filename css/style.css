@@ -567,11 +567,11 @@ h6 {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	/* animation: morph 8s ease-in-out infinite 1s;
-	background-blend-mode: multiply; */
+	animation: morph 8s ease-in-out infinite 1s;
+	background-blend-mode: multiply;
 	-webkit-box-shadow: inset 0px 0px 0px 9px rgba(255, 255, 255, .3);
 	-moz-box-shadow: inset 0px 0px 0px 9px rgba(255, 255, 255, .3);
-	box-shadow: inset 0px 0px 0px 9px rgba(255, 255, 255, .3);
+	box-shadow: inset 0px 0px 0px 9px rgba(100, 100, 100, 0.2);
 }
 
 @keyframes morph {
@@ -780,6 +780,14 @@ h6 {
 
 .tokyo_tm_button a:hover {
 	letter-spacing: 2px;
+}
+
+.tokyo_tm_button a[box="education"] {
+	border: 2px solid #f8f8f8;
+}
+
+.tokyo_tm_button a[box="experience"] {
+	border: 2px solid #f8f8f8;
 }
 
 .tokyo_tm_modalbox_about {
